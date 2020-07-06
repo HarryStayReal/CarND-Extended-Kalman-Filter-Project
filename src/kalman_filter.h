@@ -22,7 +22,7 @@ class KalmanFilter {
    * @param F_in Transition matrix
    * @param H_in Measurement matrix
    * @param R_in Measurement covariance matrix
-   * @param Q_in Process covariance matrix
+   * @param Q_in Process covariance matrix. In this case Q matrix is as acceleration noise.
    */
   void Init(Eigen::VectorXd &x_in, Eigen::MatrixXd &P_in, Eigen::MatrixXd &F_in,
             Eigen::MatrixXd &H_in, Eigen::MatrixXd &R_in, Eigen::MatrixXd &Q_in);

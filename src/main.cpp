@@ -1,3 +1,6 @@
+/*
+main.cpp - communicates with the Term 2 Simulator receiving data measurements, calls a function to run the Kalman filter, calls a function to calculate RMSE
+*/
 #include <math.h>
 #include <uWS/uWS.h>
 #include <iostream>
